@@ -1,10 +1,13 @@
 import './App.css';
+import Header from './components/Header';
+import ProjectList from './components/ProjectList';
 
 function App() {
   return (
-    <div className="App">
-        <h1>This is a Project App</h1>
-    </div>
+   <>
+      <Header/>
+      <ProjectList/>
+   </>
   );
 }
 

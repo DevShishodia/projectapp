@@ -1,3 +1,25 @@
-.App {
-  text-align: center;
+.ListItem {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 0.7rem;
+}
+.ProjectBar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.ProjectBar > h2 {
+    flex: 2;
+    margin-left: 45px;
+}
+
+.ProjectBar > button {
+    width: 100px;
+    height: 35px;
+    margin-right: 1.5rem;
+    background-color: rgb(5, 47, 235);
+    color: aliceblue;
+    border: none;
+  font-size: medium;
 }
